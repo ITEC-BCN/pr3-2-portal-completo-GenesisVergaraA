@@ -1,0 +1,108 @@
+.content{
+    display: flex;
+}
+
+
+.header {
+    background-color: #E03C31;
+    position: sticky;
+    height: 100px;
+}
+
+header img {
+    background-color: #E03C31;
+    margin: 10px auto 0 700px;
+}
+
+nav ul {
+    background-color: #E03C31;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    list-style: none;
+    height: 100px;
+    margin-top: 0px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+    background-color: aqua;
+}
+
+header{
+    color:#E03C31;
+}
+article img{
+    height: 300px;
+}
+.peliculas article{
+   display: inline-block;
+   margin: 0 85px 0 10px;
+}
+
+article h4{
+    background-color: #E03C31;
+}
+
+.actores{
+    background-color: black;
+    color: white;
+    grid-area: header;
+}
+.actores header{
+    margin-left: 800px;
+    color: white;
+}
+.actores article{
+    display: inline-block;
+    margin: 50px 10px 0 100px;
+}
+
+.actores img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.festivales{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 1000px;
+    flex-direction: column;
+    margin: 0 10px 0 0;
+    background-color: #ed8b84;
+}
+aside img{
+    height: 100px;
+    width: 100px;
+}
+
+.series article{
+    display: inline-block;
+    justify-content: space-around;
+    margin: 0px 90px 0 0;
+    width: 300px;
+}
+
+.series img{
+    height: 400px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+.series a{
+    margin-right: -100px;
+    position: relative;
+    width: 300px;
+    background-color: #E03C31;
+}
+
