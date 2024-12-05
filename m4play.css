@@ -1,108 +1,194 @@
-.content{
-    display: flex;
+/* General Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    
 }
 
+.content {
+    display: flex;
+    float: left;; /* Asegura que los elementos se ajusten en pantallas pequeñas */
+    gap: 20px; /* Espaciado entre columnas */
+    padding: 20px;
+}
+p{
+    color: white
+}
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* Header */
 .header {
     background-color: #E03C31;
     position: sticky;
+    top: 0;
     height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
 }
 
-header img {
-    background-color: #E03C31;
-    margin: 10px auto 0 700px;
+.header img {
+    max-height: 80px;
+    width: auto;
 }
 
+/* Nav */
 nav ul {
     background-color: #E03C31;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style: none;
-    height: 100px;
-    margin-top: 0px;
-
+    padding: 0;
 }
 
-a {
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul a {
     text-decoration: none;
     color: black;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-a:hover {
-    color: blue;
-    background-color: aqua;
+nav ul a:hover {
+    color: white;
+    background-color: #0056b3;
 }
 
-header{
-    color:#E03C31;
-}
-article img{
-    height: 300px;
-}
-.peliculas article{
-   display: inline-block;
-   margin: 0 85px 0 10px;
+/* Main */
+main {
+    padding: 20px;
 }
 
-article h4{
+/* Peliculas Section */
+.peliculas {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.peliculas article {
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.peliculas img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.peliculas h4 {
     background-color: #E03C31;
+    color: white;
+    padding: 5px 0;
+    margin: 5px 0;
 }
 
-.actores{
+/* Actores Section */
+.actores {
     background-color: black;
     color: white;
-    grid-area: header;
+    padding: 20px;
 }
-.actores header{
-    margin-left: 800px;
+
+.actores header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.actores article {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    width: 120px;
+}
+
+.actores img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* Festivales Section */
+.festivales {
+    background-color: #ed8b84;
+    width: 300px;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Series Section */
+.series {
+    padding: 20px 0;
+    ;
+}
+
+.series article {
+    display: inline-block;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+
+}
+
+.series img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Lo Más Visto Section */
+.loMasVisto {
+    background-color: black;
+    padding: 20px;
     color: white;
 }
-.actores article{
+
+.loMasVisto article {
     display: inline-block;
-    margin: 50px 10px 0 100px;
+    margin: 10px;
+    width: 200px;
 }
 
-.actores img{
-    border-radius: 100%;
-    width: 100px;
+.loMasVisto img {
+    height: 300px;
+    width: 300px;
+}
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+footer address {
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer img {
+    margin: 5px;
     height: 100px;
-}
-
-.festivales{
-    display: flex;
-    align-items: center;
-    width: 300px;
-    height: 1000px;
-    flex-direction: column;
-    margin: 0 10px 0 0;
-    background-color: #ed8b84;
-}
-aside img{
-    height: 100px;
     width: 100px;
 }
-
-.series article{
-    display: inline-block;
-    justify-content: space-around;
-    margin: 0px 90px 0 0;
-    width: 300px;
-}
-
-.series img{
-    height: 400px;
-    width: 300px;
-    margin-left: 15px;
-}
-
-.series a{
-    margin-right: -100px;
-    position: relative;
-    width: 300px;
-    background-color: #E03C31;
-}
-
