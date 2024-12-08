@@ -1,0 +1,49 @@
+h1, h3{
+    color: white;
+}
+
+.peliculas{
+    column-count: 3;
+    column-width: clamp(20vw,200px,100vw);
+    width: 100%;;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+main .titulo{
+    padding-top: 100px;
+    justify-items: center;
+    margin: 0 0 50px 0;
+}
+
+.peliculas a {
+    background-color: #E03C31;
+    color: white;
+    padding: 5px 15% 5px 15%;
+    text-decoration: none;
+}
+
+.peliculas h5{
+    background-color: burlywood;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.peliculas p{
+    width: 70%;
+    margin: 15px 0 15px 0;
+}
+
+.peliculas article{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 50px;
+    flex-direction: column;
+    margin: 0 0 50px 0;
+}
+
+.peliculas article img{
+    width: 350px;
+    height: 450px;
+}

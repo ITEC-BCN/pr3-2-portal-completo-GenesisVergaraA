@@ -1,0 +1,58 @@
+  section {
+    padding: 100px;
+    
+}
+
+section article{
+  background: #E03C31;
+  border-radius: 10px;
+  margin: 10px 0 -40px 400px;
+  max-width: 500px;
+  padding: 30px;
+}
+
+footer{
+  margin-top: -40px;
+}
+
+.button-login {
+  background-color: #E03C31;
+  margin-top: 20px;
+  height: 40px;
+  width: 500px;
+  border: 2px solid #616161;
+  display: center;
+  border-radius: 30px;
+  color: #3a3a3a;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 1px;
+  text-align: center;
+  
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;      
+}
+  
+h1 {
+    font-size: 1.7em;
+    margin: 1px 0 15px 0;
+    color: #fff;
+    
+  }
+  
+form {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+  }
+  
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }

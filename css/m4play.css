@@ -1,0 +1,123 @@
+.peliculas {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.peliculas article {
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.peliculas img {
+    margin: 0 0 10px 0;
+    width: 100%;
+    height: auto;
+}
+
+.peliculas p {
+    margin: 10px;
+}
+.peliculas a {
+    background-color: #E03C31;
+    color: white;
+    padding: 5px 15% 5px 15%;
+    text-decoration: none;
+}
+
+.peliculas h5{
+    background-color: burlywood;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+.peliculas a:hover{
+    color:blue;
+}
+.actores {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.actores header {
+    margin-bottom: 20px;
+}
+
+.actores article {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    width: 120px;
+}
+
+.actores img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.festivales {
+    background-color: #ed8b84;
+    padding: 20px 20px 0 20px;
+    margin: 20px 0 0 50px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.series {
+    padding: 20px 0;
+}
+
+.series article {
+    display: inline-block;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+
+}
+
+.series img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.series a{
+    padding: 5px 5px 5px 5px;
+    background-color: #E03C31;
+    text-decoration: none;
+    color: white;
+}
+
+.series a:hover{
+    color:blue;
+}
+
+.loMasVisto {
+    margin: 0 0px 0 50px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+.loMasVisto article {
+    display: inline-block;
+    margin: 20px 0px 0 0px;
+    width: 200px;
+}
+
+.loMasVisto article img {
+    height: 200px;
+    width: 150px;
+}
+
+.content {
+    display: flex;
+    float: left;
+    gap: 20px; 
+    padding: 20px;
+}

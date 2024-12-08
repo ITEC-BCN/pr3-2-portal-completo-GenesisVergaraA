@@ -1,0 +1,78 @@
+/* General Reset and Base Styles */
+* {
+    margin: 0 0 0 0;
+}
+
+.header {
+    background-color: #E03C31;
+    width: 100vw;
+    position:fixed;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 50px 0;
+    
+}
+
+.header img {
+    max-height: 80px;
+    width: auto;
+}
+
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    position: sticky;
+    background-color: #E03C31;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul a:hover {
+    color: white;
+    background-color: #00aae4;
+}
+
+
+p{
+    color:#fff;
+    
+    }
+    
+
+footer img{
+    height: 35px;
+    width: 35px;
+}
+  
+footer{ 
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-self:self-end;
+    height:100px;
+    width:100%;
+    background: #333;
+    color: white;
+}
+
+footer img{
+    margin: 0 0 0 0;
+}
+
+
